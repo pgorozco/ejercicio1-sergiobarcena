@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-label="Vista previa horizontal">
+  <rect width="600" height="400" fill="#f6f2ea"/>
+  <rect x="48" y="82" width="150" height="220" rx="16" fill="#ffffff" stroke="#d8d0c1"/>
+  <rect x="224" y="82" width="150" height="220" rx="16" fill="#ffffff" stroke="#d8d0c1"/>
+  <rect x="400" y="82" width="150" height="220" rx="16" fill="#ffffff" stroke="#d8d0c1"/>
+  <rect x="76" y="116" width="84" height="18" rx="9" fill="#b5484c"/>
+  <rect x="252" y="116" width="84" height="18" rx="9" fill="#276e92"/>
+  <rect x="428" y="116" width="84" height="18" rx="9" fill="#25745b"/>
+  <path d="M122 214 H478" stroke="#202124" stroke-width="10" stroke-linecap="round" opacity="0.16"/>
+  <path d="M462 190 L498 214 L462 238" fill="none" stroke="#202124" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.36"/>
+  <text x="76" y="342" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#202124">Recorrido horizontal</text>
+</svg>

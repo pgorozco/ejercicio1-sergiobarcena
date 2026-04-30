@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-label="Vista previa mapa">
+  <rect width="600" height="400" fill="#eef3f2"/>
+  <path d="M94 258 C118 132 220 88 306 126 C386 160 438 98 506 170 C560 228 506 318 386 310 C262 302 230 354 146 318 C108 302 86 286 94 258Z" fill="#ffffff" stroke="#c6d5d1" stroke-width="3"/>
+  <path d="M142 252 C164 180 220 148 282 164 C330 178 360 142 410 178 C448 206 420 272 344 266 C264 260 240 302 184 286 C158 278 136 270 142 252Z" fill="#25745b" opacity="0.28"/>
+  <circle cx="220" cy="205" r="16" fill="#b5484c"/>
+  <circle cx="360" cy="188" r="16" fill="#e1b24a"/>
+  <circle cx="386" cy="260" r="16" fill="#276e92"/>
+  <text x="86" y="342" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#202124">Mapa interactivo</text>
+</svg>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Componentes dinámicos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <p class="etiqueta">Componentes dinámicos</p>
+      <h1>Explorar casos con filtros</h1>
+      <p class="bajada">Una estructura para proyectos donde la persona lectora compara categorías, escalas o territorios.</p>
+    </header>
+
+    <main>
+      <section class="controles" aria-label="Filtros">
+        <label>
+          Categoría
+          <select id="filtro-categoria">
+            <option value="todas">Todas</option>
+            <option value="ambiente">Ambiente</option>
+            <option value="movilidad">Movilidad</option>
+            <option value="cultura">Cultura</option>
+          </select>
+        </label>
+
+        <label>
+          Valor mínimo
+          <input id="filtro-minimo" type="range" min="0" max="100" value="0">
+          <span id="valor-minimo">0</span>
+        </label>
+      </section>
+
+      <section class="resultado">
+        <div>
+          <p class="etiqueta">Resultado</p>
+          <h2 id="conteo">0 casos</h2>
+        </div>
+        <p id="lectura" class="lectura">Ajusta los filtros para explorar los casos.</p>
+      </section>
+
+      <section id="tarjetas" class="tarjetas" aria-live="polite"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
